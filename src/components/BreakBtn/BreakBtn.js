@@ -1,9 +1,11 @@
 import React from 'react';
 import './BreakBtn.css'
 const BreakBtn = (props) => {
+    const { breakBtn } = props;
+
     return (
         <div>
-            <button className='btn'><span>{props.value}</span>s</button>
+            <button onClick={() => breakBtn(props.value)} className='btn'><span>{props.value}</span>s</button>
         </div>
     );
 };

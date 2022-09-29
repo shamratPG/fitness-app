@@ -3,7 +3,7 @@
     padding: 10px;
     border-radius: 5px;
     position: relative;
-
+    box-shadow: -7px 9px 49px 0px rgba(0, 0, 0, 0.15);
 }
 
 .exercise-item .exercise-info {

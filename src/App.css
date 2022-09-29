@@ -1,6 +1,9 @@
 .App {
+  background-color: #F2F4FA;
   display: grid;
+  gap: 40px;
   grid-template-columns: 6fr 2fr;
+  position: relative;
 }
 
 .App-logo {

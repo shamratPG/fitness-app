@@ -1,8 +1,9 @@
 .btn {
     background-color: #F2F4FA;
     border: none;
-    padding: 15px;
-    border-radius: 55%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
     font-weight: bold;
 }
 

@@ -2,10 +2,11 @@ import React from 'react';
 import './TimeCalc.css'
 
 const TimeCalc = (props) => {
+    const { time, parameter } = props;
     return (
         <div className='time-calc'>
-            <h3>{props.data.parameter}</h3>
-            <p>{props.data.time}sec</p>
+            <h3>{parameter}</h3>
+            <p>{time} seconds</p>
         </div>
     );
 };
