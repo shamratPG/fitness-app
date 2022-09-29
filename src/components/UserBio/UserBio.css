@@ -1,0 +1,13 @@
+.user-bio-item {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.user-bio-item h2 {
+    margin: 0 0 5px 0;
+
+}
+
+.user-bio-item p {
+    margin: 0;
+}

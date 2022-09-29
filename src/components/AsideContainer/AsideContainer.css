@@ -1,0 +1,9 @@
+.aside-container {
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+.breaks {
+    display: flex;
+    justify-content: space-around;
+}

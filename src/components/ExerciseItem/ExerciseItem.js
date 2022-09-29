@@ -18,7 +18,7 @@ const ExerciseItem = (props) => {
                 <img src={image} alt="" />
                 <h3>{name}</h3>
                 <p>{exerciseInfo}</p>
-                <p>Time Required: <span>{duration}</span></p>
+                <p>Time Required: <span>{duration} sec.</span></p>
             </div>
             <button>Add to list</button>
         </div>

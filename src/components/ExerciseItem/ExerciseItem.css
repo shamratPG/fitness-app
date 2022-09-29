@@ -1,5 +1,5 @@
 .exercise-item {
-    border: 1px solid gray;
+    background-color: #FFFFFF;
     padding: 10px;
     border-radius: 5px;
     position: relative;
@@ -21,16 +21,19 @@
 
 .exercise-item button {
     position: absolute;
-    background-color: aqua;
+    background-color: #41436A;
     bottom: 0;
     right: 0;
     width: 100%;
     padding: 10px;
     font-size: 1rem;
+    font-weight: bold;
+    color: white;
     border: none;
     border-radius: 5px;
 }
 
 .exercise-item button:hover {
     cursor: pointer;
+    background-color: #2e2f46;
 }
