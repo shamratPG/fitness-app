@@ -11,7 +11,7 @@
     },
     {
         "id": "3c",
-        "question": "Uses of 'useEffect' and 'useState'",
-        "answer": "The useState hook is used for storing variables that are part of your application's state and will change as the user interacts with your website. The useEffect hook allows components to react to lifecycle events such as mounting to the DOM, re-rendering, and unmounting."
+        "question": "use cases of the useEffect ReactJS ",
+        "answer": "Whenever we need to make use of side effects in our application, useEffect is the way to go. This hook doesn't present many complications, except for non-primitive data types, due to how JavaScript handles them. **Running once on mount: fetch API data. **Running on state change: validating input field. **Running on state change: live filtering.**Running on state change: trigger animation on new array value. **Running on props change: update paragraph list on fetched API data update. **Running on props change: updating fetched API data to get BTC updated price"
     }
 ]
