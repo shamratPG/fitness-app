@@ -1,11 +1,11 @@
 .aside-container {
     padding: 15px;
     background-color: #FFFFFF;
-    height: 100vh;
+    /* height: 100vh;
     width: 23%;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0; */
 }
 
 .toast-btn {
@@ -21,4 +21,10 @@
 
 .toast-btn:hover {
     background-color: #2E2F46;
+}
+
+@media only screen and (max-width: 768px) {
+    .aside-container {
+        margin: 10px 15px;
+    }
 }

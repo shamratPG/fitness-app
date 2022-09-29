@@ -1,4 +1,5 @@
 import React from 'react';
+import './DetailsContainer.css'
 import TimeCalc from '../TimeCalc/TimeCalc';
 
 const DetailsContainer = (props) => {
@@ -10,9 +11,7 @@ const DetailsContainer = (props) => {
         <div>
             <div className="exercise-details">
                 <div className="exercise-time">
-                    <h3>
-                        Exercise Time
-                    </h3>
+                    <p>Timers</p>
                     <div className="exercise-calc">
                         <TimeCalc parameter="Exercise Time" time={exerciseTime}></TimeCalc>
                         <TimeCalc parameter="Break Time" time={breakTime}></TimeCalc>

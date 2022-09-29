@@ -1,13 +1,12 @@
 import React from 'react';
+import './Article.css'
 
 const Articles = (props) => {
     const { article } = props;
-    console.log(article)
     return (
-        <div>
-            {
-                <h1>Hello</h1>
-            }
+        <div className='article'>
+            <h2>{article.question}</h2>
+            <p>{article.answer}</p>
         </div>
     );
 };

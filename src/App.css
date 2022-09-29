@@ -3,7 +3,6 @@
   display: grid;
   gap: 40px;
   grid-template-columns: 6fr 2fr;
-  position: relative;
 }
 
 .App-logo {
@@ -39,5 +38,17 @@
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    /* background-color: #F2F4FA;
+    position: relative;
+    display: grid;
+    gap: 40px; */
+    /* grid-template-columns: 1fr; */
+    display: flex;
+    flex-direction: column-reverse;
   }
 }

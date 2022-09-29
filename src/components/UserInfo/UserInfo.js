@@ -6,7 +6,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const UserInfo = () => {
 
-    const user = { name: 'Shamrat Hossain', image: 'https://github.com/shamratPG/imges/blob/main/person.jpg?raw=true', location: 'Dhaka, Bangladesh', bio: [{ parameter: "Weight", value: 75 }, { parameter: "Height", value: 5.4 }, { parameter: "Age", value: 24 }] }
+    const user = { name: 'John Doe', image: 'https://github.com/shamratPG/imges/blob/main/person.jpg?raw=true', location: 'Dhaka, Bangladesh', bio: [{ parameter: "Weight", value: 75 }, { parameter: "Height", value: 5.4 }, { parameter: "Age", value: 24 }] }
 
     return (
         <div>

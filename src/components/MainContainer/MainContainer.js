@@ -31,6 +31,7 @@ const MainContainer = (props) => {
                 }
             </div>
             <div className="articles">
+                <h1>Question Answers</h1>
                 {
                     articles.map(article => <Article key={article.id} article={article}></Article>)
                 }

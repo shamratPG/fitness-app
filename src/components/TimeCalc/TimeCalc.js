@@ -5,7 +5,7 @@ const TimeCalc = (props) => {
     const { time, parameter } = props;
     return (
         <div className='time-calc'>
-            <h3>{parameter}</h3>
+            <h4>{parameter}</h4>
             <p>{time} seconds</p>
         </div>
     );

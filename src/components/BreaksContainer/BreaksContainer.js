@@ -7,7 +7,7 @@ const BreaksContainer = (props) => {
     const breakTimes = [10, 20, 30, 40, 50];
     return (
         <div className="breaks-container">
-            <h3>Add A Break</h3>
+            <p>Add A Break</p>
             <div className="breaks">
                 {
                     breakTimes.map(time => <BreakBtn key={time} value={time} breakBtn={breakBtn}></BreakBtn>)

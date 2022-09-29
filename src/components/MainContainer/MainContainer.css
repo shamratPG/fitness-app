@@ -8,3 +8,30 @@
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.articles {
+    margin: 150px 0;
+}
+
+.articles h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .items-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+        margin: 10px 20px;
+        /* padding: 100px; */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .items-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

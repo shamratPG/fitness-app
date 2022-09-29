@@ -1,3 +1,11 @@
+.breaks-container {
+    margin: 40px 0;
+}
+
+.breaks-container p {
+    font-weight: bold;
+}
+
 .breaks {
     display: flex;
     justify-content: space-around;
