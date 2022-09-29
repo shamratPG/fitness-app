@@ -10,7 +10,7 @@ const BreaksContainer = () => {
             <h3>Add A Break</h3>
             <div className="breaks">
                 {
-                    breakTimes.map(time => <BreakBtn value={time}></BreakBtn>)
+                    breakTimes.map(time => <BreakBtn key={time} value={time}></BreakBtn>)
                 }
             </div>
         </div>

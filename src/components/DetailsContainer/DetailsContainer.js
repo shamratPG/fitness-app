@@ -12,7 +12,7 @@ const DetailsContainer = () => {
                     </h3>
                     <div className="exercise-calc">
                         {
-                            times.map(time => <TimeCalc data={time}></TimeCalc>)
+                            times.map(time => <TimeCalc key={time.parameter} data={time}></TimeCalc>)
                         }
                     </div>
                 </div>
