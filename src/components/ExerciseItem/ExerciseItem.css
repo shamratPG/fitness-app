@@ -21,6 +21,7 @@
 
 .exercise-item button {
     position: absolute;
+    background-color: aqua;
     bottom: 0;
     right: 0;
     width: 100%;
