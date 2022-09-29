@@ -1,0 +1,13 @@
+.time-calc {
+    background-color: #F2F4FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.time-calc p {
+    color: gray;
+    font-weight: bold;
+}

@@ -3,7 +3,17 @@
     background-color: #FFFFFF;
 }
 
-.breaks {
-    display: flex;
-    justify-content: space-around;
+.toast-btn {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #41436A;
+}
+
+.toast-btn:hover {
+    background-color: #2E2F46;
 }

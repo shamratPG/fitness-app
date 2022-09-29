@@ -2,20 +2,15 @@ import React from 'react';
 import './AsideContainer.css'
 import UserInfo from '../UserInfo/UserInfo';
 import BreaksContainer from '../BreaksContainer/BreaksContainer';
+import DetailsContainer from '../DetailsContainer/DetailsContainer';
 
 const AsideContainer = () => {
     return (
         <div className='aside-container'>
             <UserInfo></UserInfo>
             <BreaksContainer></BreaksContainer>
-            <div className="exercise-details">
-                <div className="exercise-time">
-                    <h3>
-                        Exercise Time
-                    </h3>
-                    <p><span className="time"></span>s</p>
-                </div>
-            </div>
+            <DetailsContainer></DetailsContainer>
+            <button className='toast-btn'>Activity Complete</button>
         </div>
     );
 };
