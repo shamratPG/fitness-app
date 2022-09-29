@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import './UserInfo.css'
 import UserBio from '../UserBio/UserBio';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
